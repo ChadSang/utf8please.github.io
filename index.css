@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding-top: 10%;
+  text-align: center;
+  font-size: 3em;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 small {
+  color: #aaa;
+  display: inline-block;
+}
+
+.title {
+  display: inline-block;
+}
+
+h2 {
+  text-indent: 3.5em;
+}
+
+.part1 {
+  color: #57f;
+}
+
+.part2 {
+  color: #5f3;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  line-height: 3em;
+  padding-left: 20px;
+  border-top: 2px dashed #ccc;
+}
